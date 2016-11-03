@@ -1,0 +1,94 @@
+/***Font size mixn****/
+/* Buttons */
+.btn {
+  border: none;
+  border-radius: 1px;
+  color: #fff !important;
+  font-family: "BentonSansBBVA Bold", "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-size: 1.6rem;
+  margin: 0.5em 0;
+  padding: 1.9rem 6rem;
+  transition: background-color 100ms linear 0s;
+  white-space: inherit;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  background-color: #1973b8; }
+  .btn:hover, .btn:focus, .btn:active, .btn.active {
+    background-color: #072146;
+    border-bottom: none !important;
+    color: #fff !important; }
+  .btn:last-of-type {
+    margin-right: 0; }
+
+.btn-lg {
+  font-size: 22px;
+  font-size: 2.2rem;
+  padding: 2rem 6.7rem; }
+
+.btn-sm {
+  font-size: 14.25px;
+  font-size: 1.425rem;
+  padding: 1.3rem 3.7rem; }
+
+.btn-xs {
+  font-size: 12px;
+  font-size: 1.2rem;
+  padding: 1rem 2.9rem; }
+
+/* Secondary Button */
+.btn-secondary {
+  background-color: #666666; }
+  .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
+    background-color: #121212; }
+
+/* Icon Button */
+.btn .icon {
+  display: inline-block;
+  padding: 0.1em 0.4em 0 0; }
+
+/* Button Colors */
+.btn-blue {
+  background-color: #1973b8; }
+
+.btn-navy {
+  background-color: #072146; }
+
+.btn-blue-core {
+  background-color: #004481; }
+  .btn-blue-core:hover, .btn-blue-core:focus, .btn-blue-core:active {
+    background-color: #072146; }
+
+.btn-aqua {
+  background-color: #02a5a5; }
+  .btn-aqua:hover, .btn-aqua:focus, .btn-aqua:active {
+    background-color: #0b8585; }
+
+.btn-salmon {
+  background-color: #f15a5f; }
+  .btn-salmon:hover, .btn-salmon:focus, .btn-salmon:active {
+    background-color: #a32a3d; }
+
+.btn-red {
+  background-color: #da3851; }
+  .btn-red:hover, .btn-red:focus, .btn-red:active {
+    background-color: #a32a3d; }
+
+.btn-orange {
+  background-color: #f7893b; }
+  .btn-orange:hover, .btn-orange:focus, .btn-orange:active {
+    background-color: #c4580a; }
+
+.btn-green {
+  background-color: #48ae64; }
+  .btn-green:hover, .btn-green:focus, .btn-green:active {
+    background-color: #36824b; }
+
+.btn-yellow {
+  background-color: #e5b52a; }
+  .btn-yellow:hover, .btn-yellow:focus, .btn-yellow:active {
+    background-color: #b68c11; }
+
+/* Multiple Buttons, Side by Side */
+.btn + .btn, .btn + .icon-link, .btn + a, .icon-link + a {
+  margin-left: 1em; }
